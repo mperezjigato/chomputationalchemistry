@@ -1,1 +1,1 @@
-# chomputationalchemistry
+# computationalchemistry
