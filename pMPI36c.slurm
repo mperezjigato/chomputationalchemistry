@@ -5,7 +5,7 @@
 #SBATCH --time=00:20:00
 #SBATCH --account=lp_h_vsc35663
 #SBATCH --ntasks=36          # TOTAL NUMBER OF CORES (under PURE-MPI)
-#SBATCH --cpus-per-task=1    # ALWAYS ONE FOR PURE-MPI
+#SBATCH --cpus-per-task=1    # ALWAYS ONE FOR PURE MPI CALCULATIONS
 #SBATCH --cluster=genius
 
 module purge
