@@ -4,7 +4,7 @@
 #SBATCH --nodes=1
 #SBATCH --time=00:20:00
 #SBATCH --account=lp_h_vsc35663
-#SBATCH --ntasks=1  # Number of tasks per node
+#SBATCH --ntasks=1           # ALWAYS ONE FOR A PURE-OPENMP CALCULATION!
 #SBATCH --cpus-per-task=36   # Number of OpenMP threads per task
 #SBATCH --cluster=genius
 
@@ -20,3 +20,6 @@ lmp -i in.ethanol -sf omp -l log.out
 # It is good practice to use process binding always!
 # In case OpenMP is in action, do not forget it!
 # "Process binding is for training" 
+# The VSC manual for SLURM uses `--ntasks` as opposed to `--ntasks-per-node`
+# There are good examples of LAMMPS job scripts in their manual (www.lammps.org) that
+# really benefit from using `--ntasks-per-node`
