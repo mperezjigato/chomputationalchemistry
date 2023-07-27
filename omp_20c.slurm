@@ -4,7 +4,7 @@
 #SBATCH --nodes=1
 #SBATCH --time=00:20:00
 #SBATCH --account=lp_h_vsc35663
-#SBATCH --ntasks=1         # ALWAYS ONE FOR PURE OPENMP!
+#SBATCH --ntasks=1         # ALWAYS ONE FOR PURE OPENMP CALCULATIONS
 #SBATCH --cpus-per-task=20 # Number of OpenMP threads per task
 #SBATCH --cluster=genius
 
