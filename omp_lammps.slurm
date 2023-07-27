@@ -18,4 +18,4 @@ lmp -i in.ethanol -sf omp -l log.out
 
 # For a pure-OpenMP calculation, do not try to use neither mpirun nor srun (Genius uses mpirun)
 # Whenever you run LAMMPS under OpenMP (either on a pure OpenMP or on a hybrid calculation in combination with MPI):
-# Never forget the directive/executable option `--sf omp` (unless you use the KOKKOS accelerator)
+# Never forget the directive/executable option `--sf omp` (unless you use the KOKKOS accelerator -different syntax-)
