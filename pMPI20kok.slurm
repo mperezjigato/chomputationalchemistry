@@ -14,5 +14,4 @@ module load LAMMPS/29Sep2021-foss-2021a-Python-3.9.5-kokkos
 
 mpirun lmp -k on -sf kk -i in.ethanol -l log.out
 
-#  The options "-k on -sf kk" need to always be there under KOKKOS acceleration and pure MPI
-#  Do not even think of using `-sf omp` with KOKKOS aceleration - specific syntax for hybrid mode -
+#  "-k on -sf kk" :: pure MPI with KOKKOS
