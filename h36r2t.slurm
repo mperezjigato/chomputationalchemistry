@@ -11,9 +11,8 @@
 module purge
 module use /apps/leuven/skylake/2021a/modules/all
 module load LAMMPS/29Sep2021-foss-2021a-Python-3.9.5-kokkos
-module load Pirana/3.0.0-singularity
 
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 export OMP_PROC_BIND=true
 
-mpirun lmp -sf omp -pk omp 2 -i in.ethanol -l log.out
+mpirun lmp -i in.ethanol -sf omp -pk omp ${SLURM_CPUS_PER_TASK} -l log.out
