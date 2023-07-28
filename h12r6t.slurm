@@ -15,4 +15,4 @@ module load LAMMPS/29Sep2021-foss-2021a-Python-3.9.5-kokkos
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 export OMP_PROC_BIND=true
 
-
+mpirun lmp -i in.ethanol -sf omp -pk omp ${SLURM_CPUS_PER_TASK} -l log.out
