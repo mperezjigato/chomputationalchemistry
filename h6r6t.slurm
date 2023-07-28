@@ -16,5 +16,4 @@ module load Pirana/3.0.0-singularity
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 export OMP_PROC_BIND=true
 
-mpirun lmp -i in.ethanol -sf omp -pk omp ${SLURM_CPUS_PER_TASK} -l log.o
-ut
+mpirun lmp -i in.ethanol -sf omp -pk omp ${SLURM_CPUS_PER_TASK} -l log.out
