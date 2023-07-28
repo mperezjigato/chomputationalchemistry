@@ -11,9 +11,12 @@
 module purge
 module use /apps/leuven/skylake/2021a/modules/all
 module load LAMMPS/29Sep2021-foss-2021a-Python-3.9.5-kokkos
-module load Pirana/3.0.0-singularity
 
 export OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK}
 export OMP_PROC_BIND=true
 
-mpirun lmp -k on t 2 -sf kk -i in.ethanol -l log.out
+mpirun lmp -k on t ${OMP_NUM_THREADS} -sf kk -i in.ethanol -l log.out
+
+
+# although KOKKOS operates only on the MPI side, it can be used in combination with OpenMP
+# the hybrid syntax includes the numbre of OMP threads under "-k on t ${OMP_NUM_THREADS}"
