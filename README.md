@@ -17,7 +17,7 @@ Eventually the list will extend by including to-be-installed ab-initio/MD packag
 On the one hand, simple packages that read the input structures in well known formats (CIF - pdb - xyz - POSCAR) and produce outputs that become input files of the correct format for the specific programs, are envisioned. On the other, packages that generate supercells as well as defects of different dimensionality (point defects, dislocations, etc) and grain boundaries is being considered. 
 
 Moreover, atomistic geometries crucial for the current materials science ecosystem require more involved input geometry processing: disordered/amorphous solids and glasses, solid solutions, simultaneous multi-phase models, polycrystalline models, bubble nucleation models.
-The *atomic simulation environment* is a good example of such tools, well as its big-data driven high-troughput computational materials science sister package (the *atomic simulation recipes* (ASR)). Other HTCMS packages (aiida, materials genome - pymatgen, JARVIS, AFLOW - are being looked into.
+The *atomic simulation environment* is a good example of such tools, as well as its big-data driven high-troughput computational materials science sister package (the *atomic simulation recipes* (ASR)). Other HTCMS packages (aiida, materials genome - pymatgen, JARVIS, AFLOW - are being looked into.
 
 At this stage, we are certainly not talking about simple tools, HTCMS corresponding to a full infrastructure including a large collection of tools for data mining, AI (ML potentials), pre- and post-processing, databases of materials, HPC and online high-througput ab-initio/MD/kinetics calculations.
 
