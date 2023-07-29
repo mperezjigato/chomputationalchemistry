@@ -5,10 +5,10 @@ The work (training material) carried out on a set of first-principles quantum me
 
 1. Slurm job submission scripts for LAMMPS calculations have been uploaded.
 1. Tables depicting the progress achieved with the various computational chemistry software packages are regularly updated
-   - The first few uploaded tables included four tables in a single document.
+   - The first few uploaded tables were enclosed in a single document.
    - At some point, I decided to extend their size, and ended uploading separate documents for each table.
 
-Eventually the list will extend by including to-be-installed ab-initio/MD packages and pre- and post- processing tools. This work is to naively evolve in three different scientific directions, as explained below:
+Eventually the software list will extend by including to-be-installed ab-initio/MD packages and pre- and post- processing tools. This work is to naively evolve in three different scientific directions, as explained below:
 
 1. Theoretical Materials Science
 2. Big-Data driven Computational Materials Science
