@@ -2,7 +2,7 @@
 
 |                     | ASE [^1]| ALPHAFOLD/OpenMM | PLUMED [^3] |
 |---------------------|---------|------------------|-------------|
-|     INFO. GATHERING | yes     |     yes [^2]     |   -         |
+|     INFO. GATHERING | yes     |     yes [^2]     |     yes     |
 |  INDEPENDENT CASES  | yes     |        -         |   -         |
 |      TEST SUITE     | yes     |        -         |   -         |
 |     OpenMP SCALING  |  -      |        -         |   -         |
