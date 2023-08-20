@@ -8,10 +8,10 @@ The work (training material) carried out on a set of first-principles quantum me
    - The first few uploaded tables were enclosed in a single document.
    - At some point, I decided to extend their size, and ended up uploading separate documents for each table.
 
-Eventually the software list will extend by including to-be-installed ab-initio/MD packages and pre- and post- processing tools. This work is to spontaneously evolve in three different scientific directions, as explained below:
+Eventually the software list will extend by including to-be-installed ab-initio/MD packages and pre- and post- processing tools. The way I see it, this work would benefit from contact with people working in the fields:
 
 1. Theoretical Materials Science
-2. Big-Data driven Computational Materials Science
+2. Big-Data driven High-Throughput Computational Materials Science
 3. Computational Statistical Mechanics
 
 On the one hand, simple packages that read the input structures in well known formats (CIF - pdb - xyz - POSCAR) and produce outputs that become input files of the correct format for the specific programs, are envisioned (cif2cell). On the other, packages that generate supercells as well as defects of different dimensionality are being considered: point defects, dislocations, grain boundaries and surfaces (ASE). Moreover, atomistic geometries crucial for the current materials science ecosystem require more involved input geometry processing: disordered/amorphous solids and glasses, solid solutions, simultaneous multi-phase models, polycrystalline models, bubble nucleation models. The *atomic simulation environment* is a good example of such tools, as well as its big-data driven high-troughput computational materials science sister package (the *atomic simulation recipes* (ASR)). Other HTCMS packages (aiida - materials cloud; materials genome - pymatgen, JARVIS, AFLOW; pyiron) - are being looked into. At this stage, we are certainly not talking about simple tools, HTCMS corresponding to a full infrastructure including a large collection of tools for data mining, AI (ML potentials), pre- and post-processing, databases of materials, HPC and online high-througput ab-initio/MD/kinetics calculations. Given the complexity of the various scientific directions to be followed (HTCMS is probably the best example), it is my opinion that at some point, it becomes unavoidable keeping in touch with academics working in the respective fields, if you intend to keep doing sound training material development work.
@@ -20,3 +20,19 @@ HPC for computational chemistry (physics) is not justified unless large-scale pr
 
 There is one aspect of this work that requires further clarification, ie the computational statistical mechanics direction. On the one hand, it seems obvious that molecular dynamics is a tool for computational statistical mechanics, and that in combination with rare event sampling and/or Markov-Chain Monte-Carlo provides some of the most advanced kinetic simulation methods currently available. On the other, atomistic geometry file creation, in many ocassions, goes through computational statistical mechanics methodology: From straight Monte-Carlo optimisations to "cluster expansion" (ATAT) special quasirandom structure algorithms.
 It is my opinion that much of the statistical mechanics software has not gone into the HPC stage (even the computational stage!), and therefore, part of our training material development work could consist in identifying specific cases, certainly in collaboration with academics working in the computational field.
+
+A range of personal interests lies behind this description. In case we decide to get started on running calculations with the different software packages other than the examples the various distributions provide, this non-exhaustive list should serve as a starting point:
+
+ - Hydrated proteins:
+   According to the information on geometry files within the PDB databases, when those correspond to protenins in water solution, they do not include          explcit water molecules. Therefore, one of the first procedures to compute proteins in solution should start by applying one of the known tools to add 
+   explicit water molecules around a protein and build a box-model of the dissolved protein. On the other hand, there exist critical details regarding the     chemical terminations of protein groups, including zwitterionic state,  H dissociation, and H-bonds. Essentially, the presence of H atoms in PDB protein 
+   geometries is quite capricious (in fact it depens a lot on the physical techniqueà, in the sense that some people include them, although not others [^1].
+
+
+
+
+
+
+
+[^1]:  
+   
