@@ -26,14 +26,19 @@ It is my opinion that much of the statistical mechanics software has not gone in
 A range of personal interests lies behind this description. In case we decide to get started on running calculations with the different software packages other than the examples the various distributions provide, this non-exhaustive list should serve as a starting point:
 
  - *Hydrated proteins*:
-   According to the information on geometry files within the PDB databases, when those correspond to proteins in water solution, they do not include          explcit water molecules. On the other hand, there exist critical details regarding the chemical terminations of protein groups, including zwitterionic 
-   state, acidic H state, and H-bonds (including Lewis-acid H-bond coordination of Nitrogen atoms). Essentially, the presence of H atoms in PDB protein geometries is quite capricious (in fact it depens a lot on the 
+   According to the information on geometry files within the PDB databases, when those correspond to proteins in water solution, they do not include           explcit water molecules. On the other hand, there exist critical details regarding the chemical terminations of protein groups, including zwitterionic 
+   state, acidic H state, and H-bonds (including Lewis-acid H-bond coordination of Nitrogen atoms). Essentially, the presence of H atoms in PDB protein 
+   geometries is quite capricious (in fact it depens a lot on the 
    physical technique), in the sense that some people include them, although not others [^1]. According to the above, the off-the-shelf PDB protein file
    needs to be modified before running MD/ab-initio calculations:
 
-    1. The Hydrogen addition process could follow the procedure in [^2]
-    2. The water addition process, chemical termination rearrangement and box build-up for calculation would follow the procedure in 
+    1. The Hydrogen addition process could follow the procedure in [^2] (EMBL - Heidelberg)
+    2. The water addition process, chemical termination rearrangement and box build-up for calculation would follow the procedure described in the pAPRika 
+       website [^3]. This software is based on both GROMACS and PLUMED programs (part of our set of installed programms) for free energy calculations.
 
+ - *Solvated molecules as models for the study of hydrated proteins*:
+   Water solution of peptidic molecules and oligomers are key systems in order to understand the mechanics of calculations for proteins. In fact, the 
+   hydrated **alanine dipeptide** has been denominated (PG Bolhuis) "The Hydrogen atom of molecular simulation". 
 
 
 
@@ -42,4 +47,5 @@ A range of personal interests lies behind this description. In case we decide to
 
 [^1]: https://www.umass.edu/microbio/chime/beta/x1.07/protexpl/help_hyd.htm
 [^2]: http://swift.embl-heidelberg.de/servers2/
+[^3]: https://github.com/GilsonLabUCSD/pAPRika/blob/master/docs/index.rst
    
