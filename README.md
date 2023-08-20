@@ -1,13 +1,13 @@
 
 # computationalchemistry
 
-The work (training material) carried out on a set of first-principles quantum mechanical and molecular dynamics programs is summarised in the form of HPC submission scripts, of tables describing the actual progress with the packages, and of the full input/output file set for specific calculations. Therefore, the main point of this repository is that:
+The work (training material) carried out on a set of first-principles quantum mechanical and molecular dynamics programs is summarised in the form of HPC submission scripts, as well as of tables describing the actual progress with the packages, and of the full input/output file set for specific calculations. Therefore, the main point of this repository is that:
 
 1. Slurm job submission scripts for calculations with the various sofware packages have been uploaded.
 1. Tables depicting the progress achieved with the various computational chemistry programs are regularly updated
    - The first few uploaded tables were enclosed as a single document.
    - At some point, I decided to extend their size, and ended up uploading separate documents for each table.
-1. Compressed tar files containing the complete set of input and output files for a calculation.
+1. Compressed tar files containing the complete set of input and output files for a calculation are continously added.
 
 At the point of comprehensively starting with the third point in the list, the `scp` command to/from "Genius" has stopped working. Therefore, the various tar files are being prepared on Genius for future transfer.
  
