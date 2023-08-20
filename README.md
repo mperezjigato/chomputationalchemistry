@@ -10,6 +10,12 @@ The work (training material) carried out on a set of first-principles quantum me
 1. Compressed tar files containing the complete set of input and output files for a calculation are continously added.
 
 At the point of comprehensively starting with the third point in the list, the `scp` command to/from "Genius" has stopped working. Therefore, the various tar files are being prepared on Genius for future transfer.
+
+The sets of input/output tar files for specific calculations include:
+
+ - The MPI LAMMPS calculation of c-HfO2: *mpiLAMMPScHfO2.tar.gz*
+ - The sequential calculation of the ABINIT provided example "tbasepar_1", located within abinit-test/tutorial ("Lead crystal - parallelism over k-points"): 
+   *sequentialABINITtbasepar_1.tar.gz*
  
 Eventually the software list will extend by including to-be-installed ab-initio/MD packages and pre- and post- processing tools.
 On the one hand, simple packages that read the input structures in well known formats (CIF - pdb - xyz - POSCAR) and produce outputs that become input files of the correct format for the specific programs, are envisioned (cif2cell). On the other, packages that generate supercells as well as defects of different dimensionality are being considered: point defects, dislocations, grain boundaries and surfaces (ASE). Moreover, atomistic geometries crucial for the current materials science ecosystem require more involved input geometry processing: disordered/amorphous solids and glasses, solid solutions, simultaneous multi-phase models, polycrystalline models, bubble nucleation models. The *atomic simulation environment* is a good example of such tools, as well as its big-data driven high-troughput computational materials science sister package (the *atomic simulation recipes* (ASR)). Other HTCMS packages (aiida - materials cloud; materials genome - pymatgen, JARVIS, AFLOW; pyiron) - are being looked into. At this stage, we are certainly not talking about simple tools, HTCMS corresponding to a full infrastructure including a large collection of tools for data mining, AI (ML potentials), pre- and post-processing, databases of materials, HPC and online high-througput ab-initio/MD/kinetics calculations. Given the complexity of the various scientific directions to be followed (HTCMS is probably the best example), it is my opinion that at some point, it becomes unavoidable keeping in touch with academics working in the respective fields, if you intend to keep doing sound training material development work. The way I see it, this work would benefit from contact with people working in the fields:
@@ -26,28 +32,24 @@ It is my opinion that much of the statistical mechanics software has not gone in
 A range of personal scientific interests lies behind this description. In case we decide to get started on running calculations with the different software packages other than the examples the various distributions provide, this non-exhaustive list should serve as a starting point:
 
  - *Hydrated proteins*:
-   According to the information on geometry files within the PDB databases, when those correspond to proteins in water solution, they do not include           explcit water molecules. On the other hand, there exist critical details regarding the chemical terminations of protein groups, including zwitterionic 
+   According to the information on geometry files within the PDB databases, when those correspond to proteins in water solution, they do not include           
+   explcit water molecules. On the other hand, there exist critical details regarding the chemical terminations of protein groups, including zwitterionic 
    state, acidic H state, and H-bonds (including Lewis-acid H-bond coordination of Nitrogen atoms). Essentially, the presence of H atoms in PDB protein 
-   geometries is quite capricious (in fact it depens a lot on the 
-   physical technique), in the sense that some people include them, although not others [^1]. According to the above, the off-the-shelf PDB protein file
-   needs to be modified before running MD/ab-initio calculations:
+   geometries is quite capricious (in fact it depens a lot on the physical characterisation technique), in the sense that some people include them, although not 
+   everyone [^1]. According to the above, the off-the-shelf PDB protein file needs to be modified before running MD/ab-initio calculations:
 
     1. The Hydrogen addition process could follow the procedure in [^2] (EMBL - Heidelberg)
     2. The water addition process, chemical termination rearrangement and box build-up for calculation would follow the procedure described in the pAPRika 
        website [^3]. This software is based on both GROMACS and PLUMED programs (part of our set of installed programms) for free energy calculations.
 
  - *Solvated molecules as models for the study of hydrated proteins*:
-   Water solution of peptidic molecules and oligomers are key systems in order to understand the mechanics of calculations for proteins. In fact, the 
+   Water solutions of peptidic molecules and oligomers are key systems in order to understand the mechanics of calculations for proteins. In fact, the 
    hydrated **alanine dipeptide** has been denominated (PG Bolhuis) "The Hydrogen atom of molecular simulation".
 
  - *MD calculations of AuCd solid solution models*:
    The starting point would be the generation of atomistic geometries for those models, incluing:
    1. ATAT cluster expansion calculations,
    2. The solid solution geometry builder within the HTCMS software PYIRON
-
-
-
-
 
 [^1]: https://www.umass.edu/microbio/chime/beta/x1.07/protexpl/help_hyd.htm
 [^2]: http://swift.embl-heidelberg.de/servers2/
