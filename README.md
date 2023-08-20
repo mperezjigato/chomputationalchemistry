@@ -20,7 +20,8 @@ The sets of input/output tar files for specific calculations include:
    crystal" - parallelism over spin): *sequentialABINITtbasepar_2.tar.gz* (Genius)
  - **MPI** ABINIT calculation of the as provided example "tdfpt", located within abinit-test/tutoparal ("DFPT phonon calculation for Aluminium crystal - step 1: 
    ground-state electronic structure calcuation - step 2: phonon calculation": *mpiABINITtdfpt1and2.tar.gz* (DSI laptop guest2; no batch job script used)
- - Sequential ASE genetic algorith calculation for the global optimization of the structure of a CuxPt1-x(111) surface slab: *sequentialASEgenalgCuPt111slab.tar.gz* (Genius)
+ - Sequential ASE convex hull determination of a CuxPt1-x(111) surface slab by means of a genetic algorithm calculation (global optimization): 
+   *sequentialASEgenalgCuPt111slab.tar.gz* (Genius)
  - ASE water-box equilibration calculation as a strong-scaling **MPI** test: *mpiASE_STRONGSCALING_waterboxequi.tar.gz*
  - LAMMPS ethanol-box equlibration as a strong-scaling **OpenMP** test: *openmpLAMMPSstrongscalingETHANOLBOX.tar.gz*
  - 
