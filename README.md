@@ -54,4 +54,3 @@ A range of personal scientific interests lies behind this description. In case w
 [^1]: https://www.umass.edu/microbio/chime/beta/x1.07/protexpl/help_hyd.htm
 [^2]: http://swift.embl-heidelberg.de/servers2/
 [^3]: https://github.com/GilsonLabUCSD/pAPRika/blob/master/docs/index.rst
-   
