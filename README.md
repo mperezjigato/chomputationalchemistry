@@ -1,12 +1,13 @@
 
 # computationalchemistry
 
-The work (training material) carried out on a set of first-principles quantum mechanical and molecular dynamics programs is summarised in the form of HPC submission scripts and of tables describing the actual progress with the packages. The contents of this repository are:
+The work (training material) carried out on a set of first-principles quantum mechanical and molecular dynamics programs is summarised in the form of HPC submission scripts, of tables describing the actual progress with the packages, and of the full input/output file set for specific calculations. The contents of this repository are:
 
 1. Slurm job submission scripts for LAMMPS calculations have been uploaded.
 1. Tables depicting the progress achieved with the various computational chemistry software packages are regularly updated
    - The first few uploaded tables were enclosed in a single document.
    - At some point, I decided to extend their size, and ended up uploading separate documents for each table.
+1. Compressed tar files containing the complete of input and output files for a calculation.
 
 Eventually the software list will extend by including to-be-installed ab-initio/MD packages and pre- and post- processing tools. The way I see it, this work would benefit from contact with people working in the fields:
 
