@@ -38,8 +38,12 @@ A range of personal scientific interests lies behind this description. In case w
 
  - *Solvated molecules as models for the study of hydrated proteins*:
    Water solution of peptidic molecules and oligomers are key systems in order to understand the mechanics of calculations for proteins. In fact, the 
-   hydrated **alanine dipeptide** has been denominated (PG Bolhuis) "The Hydrogen atom of molecular simulation". 
+   hydrated **alanine dipeptide** has been denominated (PG Bolhuis) "The Hydrogen atom of molecular simulation".
 
+ - *MD calculations of AuCd solid solution models*:
+   The starting point would be the generation of atomistic geometries for those models, incluing:
+   1. ATAT cluster expansion calculations,
+   2. The solid solution geometry builder within the HTCMS software PYIRON
 
 
 
