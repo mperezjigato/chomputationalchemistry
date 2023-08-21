@@ -12,24 +12,24 @@ The work (training material) carried out on a set of first-principles quantum me
 The sets of input/output tar files for specific calculations include the following:
 
  - **MPI** LAMMPS calculation of c-HfO2: *mpiLAMMPScHfO2.tar.gz* (Genius)
- - Sequential ABINIT calculation of the as provided example "tbasepar_1", located within abinit-test/tutorial ("Lead crystal - parallelism over k-points"): 
+ - **Sequential** ABINIT calculation of the as provided example "tbasepar_1", located within abinit-test/tutorial ("Lead crystal - parallelism over k-points"): 
    *sequentialABINITtbasepar_1.tar.gz* (Genius)
- - Sequential ABINIT calculation of the as provided example "tbasepar_2", located within abinit-test/tutorial ("FCC 4-atom A1-phonon deformed ferromagnetic Fe 
+ - **Sequential** ABINIT calculation of the as provided example "tbasepar_2", located within abinit-test/tutorial ("FCC 4-atom A1-phonon deformed ferromagnetic Fe 
    crystal" - parallelism over spin): *sequentialABINITtbasepar_2.tar.gz* (Genius)
  - **MPI** ABINIT calculation of the as provided example "tdfpt", located within abinit-test/tutoparal ("DFPT phonon calculation for Aluminium crystal - step 1: 
    ground-state electronic structure calcuation - step 2: phonon calculation": *mpiABINITtdfpt1and2.tar.gz* (DSI laptop guest2; no batch job script used)
- - Sequential ASE convex hull determination of a CuxPt1-x(111) surface slab by means of a genetic algorithm calculation (global optimization): 
+ - **Sequential** ASE convex hull determination of a CuxPt1-x(111) surface slab by means of a genetic algorithm calculation (global optimization): 
    *sequentialASEgenalgCuPt111slab.tar.gz* (Genius)
- - ASE water-box equilibration calculation as a strong-scaling **MPI** test: *mpiASE_STRONGSCALING_waterboxequi.tar.gz* (Genius)
- - LAMMPS ethanol-box equlibration as a strong-scaling **OpenMP** test: *openmpLAMMPSstrongscalingETHANOLBOX.tar.gz* (Genius)
- - LAMMPS ethanol-box equilibration as a *KOKKOS* parallelism *hybrid (36/2)* calculation case: KOKKOSPARALLhybrid36and2ethanol.tar.gz (Genius)
- - Sequential LAMMPS Monte-Carlo relaxation of a two-dimensional deformed hexaganal lattice: *sequentialLAMMPSmc.tar.gz* (Genius)
+ - **MPI** ASE water-box equilibration as a strong-scaling **MPI** test: *mpiASE_STRONGSCALING_waterboxequi.tar.gz* (Genius)
+ - **OpenMP** LAMMPS ethanol-box equlibration as a strong-scaling **OpenMP** test: *openmpLAMMPSstrongscalingETHANOLBOX.tar.gz* (Genius)
+ - **KOKKOS-HYBRID** LAMMPS ethanol-box equilibration as a KOKKOS-hybrid (36/2) calculation case: KOKKOSPARALLhybrid36and2ethanol.tar.gz (Genius)
+ - **Sequential** LAMMPS Monte-Carlo relaxation of a two-dimensional deformed hexaganal lattice: *sequentialLAMMPSmc.tar.gz* (Genius)
  - **MPI** LAMMPS calculation of quartz amorphisation via melting/quenching temperature ramps, as an **MPI** strong-scaling case: *mpiLAMMPSstrongscalsilicaamorph.tar.gz* (Genius)
- - GaAs PWscf calculation under PAW,
- - SiH4 -molecule in a box- PWscf calculation under norm-conserving pseudopotentials,
- - *Immm* Ag2PdO2 PWscf calculation under norm-conserving pseudopotentials,
- - Gold surface
- - Iridium carbide
+ - **Sequential** GaAs PWscf calculation under PAW: *sequentialQEgaas.tar.gz* (Genius),
+ - **MPI** SiH4 -molecule in a box- PWscf calculation under Hamann's ONCV pseudopotentials: *mpiQEsih4.tar.gz* (Genius),
+ - **MPI** *Immm* Ag2PdO2 PWscf calculation under ultrasoft pseudopotentials: *mpiQE_Ag2PdO2.tar.gz* (Genius),
+ - **MPI** PWscf calculation of 112 atom-cell Gold surface, from the PRACE benchmark (UEABS): *mpiQEgoldsurface.tar.gz* (Genius)
+ - **MPI** PWscf calculation of 443-atom cell Iridium carbide under PAW, from the PRACE benchmark: *mpiQEiridiumcarbide.tar.gz* (Genius)
  
 Eventually, the software list as exhibited in the reported tables will extend by including to-be-installed ab-initio/MD packages and pre- and post- processing tools. On the one hand, simple packages that read the input structures in well known formats (CIF - pdb - xyz - POSCAR) and produce outputs that become input files of the correct format for the specific programs, are envisioned (cif2cell). On the other, packages that generate supercells as well as defects of different dimensionality are being considered: point defects, dislocations, grain boundaries and surfaces (ASE). Moreover, atomistic geometries crucial for the current materials science ecosystem require more involved input geometry processing: disordered/amorphous solids and glasses, solid solutions, simultaneous multi-phase models, polycrystalline models, bubble nucleation models. The *atomic simulation environment* is a good example of such tools, as well as its big-data driven high-troughput computational materials science sister package (the *atomic simulation recipes* (ASR)). Other HTCMS packages (aiida - materials cloud; materials genome - pymatgen, JARVIS, AFLOW; pyiron) - are being looked into. At this stage, we are certainly not talking about simple tools, HTCMS corresponding to a full infrastructure including a large collection of tools for data mining, AI (ML potentials), pre- and post-processing, databases of materials, HPC and online high-througput ab-initio/MD/kinetics calculations. Given the complexity of the various scientific directions to be followed (HTCMS is probably the best example), it is my opinion that at some point, it becomes unavoidable keeping in touch with academics working in the respective fields, if you intend to keep doing sound training material development work. The way I see it, this work would benefit from contact with people working in the fields:
 
