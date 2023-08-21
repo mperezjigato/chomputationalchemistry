@@ -45,11 +45,11 @@ It is my opinion that much of the statistical mechanics software has not gone in
 A range of personal scientific interests lies behind this description. In case we decide to get started on running calculations with the different software packages other than the examples the various distributions provide, this non-exhaustive list should serve as a starting point:
 
  - *Hydrated proteins*:
-   According to the information on geometry files within the PDB databases, when those correspond to proteins in water solution, they do not include           
-   explcit water molecules. On the other hand, there exist critical details regarding the chemical terminations of protein groups, including zwitterionic 
-   state, acidic H state, and H-bonds (including Lewis-acid H-bond coordination of Nitrogen atoms). Essentially, the presence of H atoms in PDB protein 
-   geometries is quite capricious (in fact it depens a lot on the physical characterisation technique), in the sense that some people include them, although not 
-   everyone [^1]. According to the above, the off-the-shelf PDB protein file needs to be modified before running MD/ab-initio calculations:
+   The protein solution field seems to be a very productive one at this point, including both implicit and explicit water molecule models. It seems that PDB files 
+   of proteins in water solution do not contain the explicit solvent molecules. On the other hand, there exist critical details regarding the chemical terminations 
+   of protein groups, including zwitterionic states, acidic H states, and H-bonds (including Lewis-acid/base H-bond coordination of Nitrogen atoms), that need to 
+   be set up correctly. It is key to note that H atoms in proteins cannot be assumed to be present in PDB files [^1], since this happens only in some cases. The 
+   off-the-shelf PDB protein file always needs to be modified before running MD/ab-initio calculations with the water molecules explicitly included:
 
     1. The Hydrogen addition process could follow the procedure in [^2] (EMBL - Heidelberg)
     2. The water addition process, chemical termination rearrangement and box build-up for calculation would follow the procedure described in the pAPRika 
