@@ -9,9 +9,7 @@ The work (training material) carried out on a set of first-principles quantum me
    - At some point, I decided to extend their size, and ended up uploading separate documents for each table.
 1. Compressed tar files containing the complete set of input and output files for a calculation are continously added.
 
-At the point of comprehensively starting with the third point in the list, the `scp` command to/from "Genius" has stopped working. Therefore, the various tar files are being prepared on Genius for future transfer.
-
-The sets of input/output tar files for specific calculations include:
+The sets of input/output tar files for specific calculations include the following:
 
  - **MPI** LAMMPS calculation of c-HfO2: *mpiLAMMPScHfO2.tar.gz* (Genius)
  - Sequential ABINIT calculation of the as provided example "tbasepar_1", located within abinit-test/tutorial ("Lead crystal - parallelism over k-points"): 
