@@ -50,22 +50,26 @@ A range of personal scientific interests lies behind this description. In case w
    Protein solvation seems to be a very productive field, including both implicit and explicit water molecule models. It seems that PDB files 
    of proteins in water do not contain the explicit solvent molecules. On the other hand, there exist critical details regarding the chemical terminations 
    of protein groups, including zwitterionic states, acidic H states and H-bonds, that need to 
-   be addressed correctly. Moreover, it is key to note that H atoms in proteins cannot be assumed to be present in PDB files [^1], since this happens only in 
-   some cases. The off-the-shelf PDB protein file always needs to be modified before running MD/ab-initio calculations with the water molecules explicitly 
-   included:
+   be addressed correctly. Moreover, it is key to note that H atoms in proteins cannot be assumed to be present in PDB files [^1], since this 
+   happens only in some cases. The off-the-shelf PDB protein file always needs to be modified before running MD/ab-initio calculations with the 
+   water molecules explicitly included:
 
     1. The Hydrogen addition process could follow the procedure in [^2] (EMBL - Heidelberg)
-    2. The water addition process, chemical termination rearrangement and box build-up for calculation would follow the procedure described in the pAPRika 
-       website [^3]. This software is based on both GROMACS and PLUMED programs (part of our set of installed programms) for free energy calculations.
+    1. The water addition process, chemical termination rearrangement and box build-up for calculation would follow the procedure described in 
+       the pAPRika website [^3]. This software is based on both GROMACS and PLUMED programs (part of our set of installed programms) for free 
+       energy calculations.
 
  - *Solvated molecules as models for the study of hydrated proteins*:
    Water solutions of peptidic molecules and oligomers are key systems in order to understand the mechanics of calculations for proteins. In fact, hydrated 
    **alanine dipeptide** has been denominated (PG Bolhuis) "The Hydrogen atom of molecular simulation".
 
  - *MD calculations of AuCd solid solution models*:
-   The starting point would be the generation of atomistic geometries for those models, incluing:
+   The starting point would be the generation of atomistic geometries for those models (the picture below illustrates the concept of chemical 
+   ordering, which underpins solid solutions and the randomness operating behind them), including:
    1. ATAT cluster expansion calculations,
    2. The solid solution geometry builder within the HTCMS software PYIRON
+
+![](chemicalordering.png)
 
 [^1]: https://www.umass.edu/microbio/chime/beta/x1.07/protexpl/help_hyd.htm
 [^2]: http://swift.embl-heidelberg.de/servers2/
