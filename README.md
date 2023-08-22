@@ -21,10 +21,12 @@ The sets of input/output tar files for specific calculations include the followi
    *sequentialASEgenalgCuPt111slab.tar.gz* (Genius)
  - **MPI** ASE water-box equilibration as a strong-scaling **MPI** test: *mpiASE_STRONGSCALING_waterboxequi.tar.gz* (Genius)
  - **MPI** LAMMPS calculation of c-HfO2: *mpiLAMMPScHfO2.tar.gz* (Genius)
- - **OpenMP** LAMMPS ethanol-box equlibration as a strong-scaling **OpenMP** test: *openmpLAMMPSstrongscalingETHANOLBOX.tar.gz* (Genius)
- - **KOKKOS-HYBRID** LAMMPS ethanol-box equilibration as a KOKKOS-hybrid (36/2) calculation case: KOKKOSPARALLhybrid36and2ethanol.tar.gz (Genius)
+ - **OpenMP** (strong-scaling) and **KOKKOS-hybrid** LAMMPS ethanol-box equlibration: *openmpLAMMPSstrongscalingETHANOLBOX.tar.gz* and  
+   KOKKOSPARALLhybrid36and2ethanol.tar.gz (Genius)
  - **Sequential** LAMMPS Monte-Carlo relaxation of a two-dimensional deformed hexagonal lattice: *sequentialLAMMPSmc.tar.gz* (Genius)
  - **MPI** LAMMPS calculation of quartz amorphisation via melting/quenching temperature ramps, as an **MPI** strong-scaling case: *mpiLAMMPSstrongscalsilicaamorph.tar.gz* (Genius)
+ - **Sequential**, **MPI**, **OpenMP** and **hybrid** LAMMPS NVT calculation for a Lennard-Jones fluid: *sequentialLAMMPSlj.tar.gz*, *mpiLAMMPSlj.tar.gz*, 
+   *openmpLAMMPSlj.tar.gz* and *hybridLAMMPSlj.tar.gz* (Genius),
  - **Sequential** QE (PWscf) GaAs calculation under PAW: *sequentialQEgaas.tar.gz* (Genius),
  - **MPI** QE (PWscf) SiH4 -molecule in a box- calculation under Hamann's ONCV pseudopotentials: *mpiQEsih4.tar.gz* (Genius),
  - **MPI** QE (PWscf) *Immm* Ag2PdO2 calculation under ultrasoft pseudopotentials: *mpiQE_Ag2PdO2.tar.gz* (Genius),
