@@ -11,7 +11,6 @@ The work (training material) carried out on a set of first-principles quantum me
 
 The sets of input/output tar files for specific calculations include the following:
 
- - **MPI** LAMMPS calculation of c-HfO2: *mpiLAMMPScHfO2.tar.gz* (Genius)
  - **Sequential** ABINIT calculation of the as provided example "tbasepar_1", located within abinit-test/tutorial ("Lead crystal - parallelism over k-points"): 
    *sequentialABINITtbasepar_1.tar.gz* (Genius)
  - **Sequential** ABINIT calculation of the as provided example "tbasepar_2", located within abinit-test/tutorial ("FCC 4-atom A1-phonon deformed ferromagnetic Fe 
@@ -21,6 +20,7 @@ The sets of input/output tar files for specific calculations include the followi
  - **Sequential** ASE convex hull determination of a CuxPt1-x(111) surface slab by means of a genetic algorithm calculation (global optimization): 
    *sequentialASEgenalgCuPt111slab.tar.gz* (Genius)
  - **MPI** ASE water-box equilibration as a strong-scaling **MPI** test: *mpiASE_STRONGSCALING_waterboxequi.tar.gz* (Genius)
+ - **MPI** LAMMPS calculation of c-HfO2: *mpiLAMMPScHfO2.tar.gz* (Genius)
  - **OpenMP** LAMMPS ethanol-box equlibration as a strong-scaling **OpenMP** test: *openmpLAMMPSstrongscalingETHANOLBOX.tar.gz* (Genius)
  - **KOKKOS-HYBRID** LAMMPS ethanol-box equilibration as a KOKKOS-hybrid (36/2) calculation case: KOKKOSPARALLhybrid36and2ethanol.tar.gz (Genius)
  - **Sequential** LAMMPS Monte-Carlo relaxation of a two-dimensional deformed hexagonal lattice: *sequentialLAMMPSmc.tar.gz* (Genius)
