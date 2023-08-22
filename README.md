@@ -56,8 +56,8 @@ A range of personal scientific interests lies behind this description. In case w
        website [^3]. This software is based on both GROMACS and PLUMED programs (part of our set of installed programms) for free energy calculations.
 
  - *Solvated molecules as models for the study of hydrated proteins*:
-   Water solutions of peptidic molecules and oligomers are key systems in order to understand the mechanics of calculations for proteins. In fact, the 
-   hydrated **alanine dipeptide** has been denominated (PG Bolhuis) "The Hydrogen atom of molecular simulation".
+   Water solutions of peptidic molecules and oligomers are key systems in order to understand the mechanics of calculations for proteins. In fact, hydrated 
+   **alanine dipeptide** has been denominated (PG Bolhuis) "The Hydrogen atom of molecular simulation".
 
  - *MD calculations of AuCd solid solution models*:
    The starting point would be the generation of atomistic geometries for those models, incluing:
