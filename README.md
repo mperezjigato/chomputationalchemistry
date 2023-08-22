@@ -66,7 +66,7 @@ A range of personal scientific interests lies behind this description. In case w
  - *MD calculations of AuCd solid solution models*:
    The starting point would be the generation of atomistic geometries for those models (the picture below illustrates the concept of chemical 
    ordering, which underpins solid solutions and the randomness operating behind them), including:
-   1. ATAT cluster expansion calculations,
+   1. ATAT cluster expansion or special quasirandom structure [^4] calculations,
    2. The solid solution geometry builder within the HTCMS software PYIRON
 
 ![](chemicalordering.gif)
@@ -74,3 +74,4 @@ A range of personal scientific interests lies behind this description. In case w
 [^1]: https://www.umass.edu/microbio/chime/beta/x1.07/protexpl/help_hyd.htm
 [^2]: http://swift.embl-heidelberg.de/servers2/
 [^3]: https://github.com/GilsonLabUCSD/pAPRika/blob/master/docs/index.rst
+[^4]: https://nanohub.org/tools/sqsatat/
