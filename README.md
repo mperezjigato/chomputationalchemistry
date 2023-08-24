@@ -71,7 +71,7 @@ A range of personal scientific interests lies behind this description. In case w
    2. The solid solution geometry builder within the HTCMS software PYIRON
 
    The Statistical Mechanics of Non-Affine Lattices is a currently developed theory that underpins phenomena like rubber 
-   (entropic) non-linear elasticity operating behind the behaviour of this type of material, very well know for its anomalous phonon softening     and ferroelastic behaviour.
+   (entropic) non-linear elasticity operating behind the behaviour of this type of material, very well known for its anomalous phonon softening and ferroelastic behaviour.
 
 ![](chemicalordering.gif)
 
