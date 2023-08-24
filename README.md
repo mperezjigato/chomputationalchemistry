@@ -66,8 +66,12 @@ A range of personal scientific interests lies behind this description. In case w
  - *MD calculations of AuCd solid solution models*:
    The starting point would be the generation of atomistic geometries for those models (the picture below illustrates the concept of chemical 
    ordering, which underpins solid solutions and the randomness operating behind them), including:
+
    1. ATAT cluster expansion or special quasirandom structure [^4] calculations,
    2. The solid solution geometry builder within the HTCMS software PYIRON
+
+   The Statistical Mechanics of Non-Affine Lattices is a currently developed theory that underpins phenomena like rubber 
+   (entropic) non-linear elasticity operating behind the behaviour of this type of material, very well know for its anomalous phonon softening     and ferroelastic behaviour.
 
 ![](chemicalordering.gif)
 
