@@ -70,8 +70,7 @@ A range of personal scientific interests lies behind this description. In case w
    1. ATAT cluster expansion or special quasirandom structure [^4] calculations,
    2. The solid solution geometry builder within the HTCMS software PYIRON
 
-   The Statistical Mechanics of Non-Affine Lattices is a currently developed theory that underpins phenomena like rubber 
-   (entropic) non-linear elasticity operating behind the behaviour of this type of material, very well known for its anomalous phonon softening and ferroelastic behaviour.
+   The Statistical Mechanics of Non-Affine Lattices (see Alessio Zaccone and Matteo Baggioli) is a currently developed theory that underpins phenomena like rubber (entropic) non-linear elasticity operating behind the behaviour of this type of material, very well known for its anomalous phonon softening and ferroelastic behaviour.
 
 ![](chemicalordering.gif)
 
