@@ -1,4 +1,4 @@
-# Purely octahedral vs cubo-octahedral Ag nanoparticles - number of Ag atoms
+# Purely octahedral vs cubo-octahedral Ag (fcc) nanoparticles - number of Ag atoms
 
 |NPAR|c=40%|Nat-pureOh|NatTROHc2|NatTROHc40|Ncore(pOh)|Ncore(c=2)|Ncore(c=40%)|
 |----|-----|----------|---------|----------|----------|----------|------------|
