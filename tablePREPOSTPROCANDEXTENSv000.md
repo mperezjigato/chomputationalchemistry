@@ -31,5 +31,5 @@
 
 [^1]:
 [^2]: https://sites.google.com/site/akohlmey/software/topotools
-[^3]: https://www.brown.edu/Departments/Engineering/Labs/avdw/atat/
+[^3]: The Alloy-Theoretic Automated Toolkit (ATAT): https://www.brown.edu/Departments/Engineering/Labs/avdw/atat/
 [^4]: http://www.quantum-environ.org/
