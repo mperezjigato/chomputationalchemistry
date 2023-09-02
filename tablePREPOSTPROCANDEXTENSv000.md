@@ -23,8 +23,8 @@
 |                       |                       |          |               |
 |WANNIER90              |atomicrex.org          |          |ATAT [^3]      |
 |environ [^4]           |WULFFPACK [^5]           |        |P4             |
-|YAMBO                  |                       |          |pymatnest      |
-|                       |                       |          |               |
+|YAMBO                  |EON                       |          |pymatnest      |
+|                       |                       |          |vcsgc [^6]               |
 |                       |                       |          |               |
 |                       |                       |          |               |
 |                       |                       |          |               |
@@ -34,3 +34,4 @@
 [^3]: The Alloy-Theoretic Automated Toolkit (ATAT): https://www.brown.edu/Departments/Engineering/Labs/avdw/atat/
 [^4]: http://www.quantum-environ.org/ 
 [^5]: https://wulffpack.materialsmodeling.org/
+[^6]: https://vcsgc-lammps.materialsmodeling.org/
