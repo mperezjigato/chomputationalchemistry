@@ -25,8 +25,10 @@
 |environ [^4]           |WULFFPACK [^5]                          |                |P4             |
 |YAMBO                  |EON                                     |                |pymatnest      |
 |                       |ICET [^6]                               |                |vcsgc [^7]     |
-|                       |                                        |                |               |
-|                       |                                        |                |               |
+|                       |                                        |                |TAMMBER        |
+|                       |                                        |                |PyEMMA         |
+|                       |                                        |                |DISCOTRESS     |
+|                       |                                        |                |PyGT           |
 |                       |                                        |                |               |
 
 [^1]: https://www.materialscloud.org/work/tools/qeinputgenerator
