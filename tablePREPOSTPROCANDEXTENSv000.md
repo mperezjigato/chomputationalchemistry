@@ -1,5 +1,5 @@
 
-# PRE-, POST-PROCESSING AND EXTENSION TOOLS FOR AB-INITIO AND MD CODES
+# PRE-, POST-PROCESSING AND EXTENSION TOOLS
 
 |QE                     |ASE                                     |GPAW            |LAMMPS         |
 |-----------------------|----------------------------------------|----------------|---------------|
