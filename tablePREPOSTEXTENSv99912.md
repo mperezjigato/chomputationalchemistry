@@ -5,7 +5,7 @@
 |-------|------------------|--------------|------------|---------------|
 |pre-p. |materialscloud.org|              |gpaw-tools  |atomsk         |
 |       |AFLOW             |              |            |emc            |
-|       |                  |              |            |PACKMOL        |
+|       |CIF2CELL          |              |            |PACKMOL        |
 |       |                  |              |            |Pizza.py       |
 |       |                  |              |            |moltemplate.org|
 |       |                  |              |            |TOPOTOOLS [^1] |
