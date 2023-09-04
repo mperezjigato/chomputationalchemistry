@@ -10,6 +10,8 @@
 |       |                  |              |            |moltemplate.org|
 |       |                  |              |            |TOPOTOOLS [^1] |
 |       |                  |              |            |MolTwister     |
+|       |                  |              |            |GB             |
+|       |                  |              |            |DIST           |
 |       |                  |              |            |               |
 |post-p.|qeschema          |              |            |TRAVIS         |
 |       |postqe [^2]       |              |            |LOOS           |
