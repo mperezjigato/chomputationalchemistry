@@ -22,11 +22,13 @@
 |       |environ [^5]      |WULFFPACK [^6]|            |P4             |
 |       |YAMBO             |EON           |            |pymatnest      |
 |       |SSCHA             |ICET [^7]     |            |vcsgc [^8]     |
-|       |                  |              |            |TAMMBER        |
+|       |                  |PHONOPY3      |            |TAMMBER        |
 |       |                  |              |            |PyEMMA         |
 |       |                  |              |            |DISCOTRESS     |
 |       |                  |              |            |PyGT           |
 |       |                  |              |            |BLaSa          |
+|       |                  |              |            |SPORTRAN       |
+|       |                  |              |            |PYIRON         |
 |       |                  |              |            |               |
 
 [^1]: https://sites.google.com/site/akohlmey/software/topotools
