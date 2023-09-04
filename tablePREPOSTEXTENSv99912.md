@@ -29,7 +29,7 @@
 |       |                  |              |            |BLaSa          |
 |       |                  |              |            |SPORTRAN       |
 |       |                  |              |            |PYIRON         |
-|       |                  |              |            |               |
+|       |                  |              |            |FRESHS         |
 
 [^1]: https://sites.google.com/site/akohlmey/software/topotools
 [^2]: https://github.com/QEF/postqe
