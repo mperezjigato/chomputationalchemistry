@@ -23,7 +23,7 @@
 |       |YAMBO             |EON           |            |pymatnest      |
 |       |SSCHA             |ICET [^7]     |            |vcsgc [^8]     |
 |       |SternheimerGW     |PHONOPY3      |            |TAMMBER        |
-|       |                  |              |            |PyEMMA         |
+|       |aiida [^9]        |              |            |PyEMMA         |
 |       |                  |              |            |DISCOTRESS     |
 |       |                  |              |            |PyGT           |
 |       |                  |              |            |BLaSa          |
@@ -39,3 +39,4 @@
 [^6]: https://wulffpack.materialsmodeling.org/ 
 [^7]: https://sharc.materialsmodeling.org/sqs/ ; https://icet.materialsmodeling.org/
 [^8]: https://vcsgc-lammps.materialsmodeling.org/
+[^9]: AIIDA and materialscloud.org (alongside other components) comprise a Big-Data High-Throughput Computational Materials Science framework
