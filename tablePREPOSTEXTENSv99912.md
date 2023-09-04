@@ -3,7 +3,7 @@
 
 |       |QE                |ASE           |GPAW        |LAMMPS         |
 |-------|------------------|--------------|------------|---------------|
-|pre-p. |materialscloud.org|PYIRON        |gpaw-tools  |atomsk         |
+|pre-p. |materialscloud.org|PYIRON        |PYIRON      |atomsk         |
 |       |AFLOW             |              |            |emc            |
 |       |CIF2CELL          |              |            |PACKMOL        |
 |       |                  |              |            |Pizza.py       |
@@ -13,7 +13,7 @@
 |       |                  |              |            |GB             |
 |       |                  |              |            |DIST           |
 |       |                  |              |            |               |
-|post-p.|qeschema          |              |            |TRAVIS         |
+|post-p.|qeschema          |              |gpaw-tools  |TRAVIS         |
 |       |postqe [^2]       |              |            |LOOS           |
 |       |                  |              |            |FREUD          |
 |       |                  |              |            |PyLAT          |
