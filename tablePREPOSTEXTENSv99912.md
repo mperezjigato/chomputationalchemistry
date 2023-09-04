@@ -11,7 +11,7 @@
 |       |                  |              |            |TOPOTOOLS [^1] |
 |       |                  |              |            |               |
 |post-p.|qeschema          |              |            |TRAVIS         |
-|       |postqe [^2]       |              |            |               |
+|       |postqe [^2]       |              |            |LOOS           |
 |       |                  |              |            |               |
 |       |                  |              |            |               |
 |       |                  |              |            |               |
