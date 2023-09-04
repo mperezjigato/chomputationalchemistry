@@ -11,17 +11,17 @@
 |       |                  |              |            |TOPOTOOLS [^1] |
 |       |                  |              |            |               |
 |post-p.|qeschema          |              |            |TRAVIS         |
+|       |postqe [^2]       |              |            |               |
 |       |                  |              |            |               |
 |       |                  |              |            |               |
 |       |                  |              |            |               |
 |       |                  |              |            |               |
 |       |                  |              |            |               |
 |       |                  |              |            |               |
-|       |                  |              |            |               |
-|extens.|WANNIER90         |atomicrex.org |            |ATAT [^2][^3]  |
-|       |environ [^4]      |WULFFPACK [^5]|            |P4             |
+|extens.|WANNIER90         |atomicrex.org |            |ATAT [^3][^4]  |
+|       |environ [^5]      |WULFFPACK [^6]|            |P4             |
 |       |YAMBO             |EON           |            |pymatnest      |
-|       |SSCHA             |ICET [^6]     |            |vcsgc [^7]     |
+|       |SSCHA             |ICET [^7]     |            |vcsgc [^8]     |
 |       |                  |              |            |TAMMBER        |
 |       |                  |              |            |PyEMMA         |
 |       |                  |              |            |DISCOTRESS     |
@@ -30,9 +30,10 @@
 |       |                  |              |            |               |
 
 [^1]: https://sites.google.com/site/akohlmey/software/topotools
-[^2]: https://www.brown.edu/Departments/Engineering/Labs/avdw/atat/
-[^3]: https://nanohub.org/resources/sqsatat
-[^4]: http://www.quantum-environ.org/ 
-[^5]: https://wulffpack.materialsmodeling.org/ 
-[^6]: https://sharc.materialsmodeling.org/sqs/ ; https://icet.materialsmodeling.org/
-[^7]: https://vcsgc-lammps.materialsmodeling.org/
+[^2]: https://github.com/QEF/postqe
+[^3]: https://www.brown.edu/Departments/Engineering/Labs/avdw/atat/
+[^4]: https://nanohub.org/resources/sqsatat
+[^5]: http://www.quantum-environ.org/ 
+[^6]: https://wulffpack.materialsmodeling.org/ 
+[^7]: https://sharc.materialsmodeling.org/sqs/ ; https://icet.materialsmodeling.org/
+[^8]: https://vcsgc-lammps.materialsmodeling.org/
