@@ -24,15 +24,15 @@
 |extens.|WANNIER90         |atomicrex.org |            |ATAT [^3][^4]  |
 |       |environ [^5]      |WULFFPACK [^6]|            |P4             |
 |       |YAMBO             |EON           |            |pymatnest      |
-|       |SSCHA             |ICET [^7]     |            |vcsgc [^8]     |
+|       |SSCHA [^7]        |ICET [^8]     |            |vcsgc [^9]     |
 |       |SternheimerGW     |PHONOPY3      |            |TAMMBER        |
-|       |aiida [^9]        |ASR           |            |PyEMMA         |
+|       |aiida [^10]       |ASR           |            |PyEMMA         |
 |       |                  |              |            |DISCOTRESS     |
 |       |                  |              |            |PyGT           |
 |       |                  |              |            |BLaSa          |
 |       |                  |              |            |SPORTRAN       |
 |       |                  |              |            |PYIRON         |
-|       |                  |              |            |FRESHS [^10]   |
+|       |                  |              |            |FRESHS [^11]   |
 
 [^1]: https://sites.google.com/site/akohlmey/software/topotools
 [^2]: https://github.com/QEF/postqe
@@ -40,7 +40,8 @@
 [^4]: https://nanohub.org/resources/sqsatat
 [^5]: http://www.quantum-environ.org/ 
 [^6]: https://wulffpack.materialsmodeling.org/ 
-[^7]: https://sharc.materialsmodeling.org/sqs/ ; https://icet.materialsmodeling.org/
-[^8]: https://vcsgc-lammps.materialsmodeling.org/
-[^9]: AIIDA and materialscloud.org (alongside other components) comprise a Big-Data High-Throughput Computational Materials Science framework
-[^10]: https://github.com/freshs/freshs
+[^7]: http://sscha.eu/
+[^8]: https://sharc.materialsmodeling.org/sqs/ ; https://icet.materialsmodeling.org/
+[^9]: https://vcsgc-lammps.materialsmodeling.org/
+[^10]: AIIDA and materialscloud.org (alongside other components) comprise a Big-Data High-Throughput Computational Materials Science framework
+[^11]: https://github.com/freshs/freshs
