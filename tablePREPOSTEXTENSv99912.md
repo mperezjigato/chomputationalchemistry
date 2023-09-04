@@ -22,7 +22,7 @@
 |       |environ [^5]      |WULFFPACK [^6]|            |P4             |
 |       |YAMBO             |EON           |            |pymatnest      |
 |       |SSCHA             |ICET [^7]     |            |vcsgc [^8]     |
-|       |                  |PHONOPY3      |            |TAMMBER        |
+|       |SternheimerGW     |PHONOPY3      |            |TAMMBER        |
 |       |                  |              |            |PyEMMA         |
 |       |                  |              |            |DISCOTRESS     |
 |       |                  |              |            |PyGT           |
