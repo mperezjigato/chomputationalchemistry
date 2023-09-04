@@ -13,8 +13,8 @@
 |       |                  |              |            |       |GB             |
 |       |                  |              |            |       |DIST           |
 |       |                  |              |            |       |               |
-|post-p.|qeschema          |              |gpaw-tools  |abiopen|TRAVIS         |
-|       |postqe [^2]       |              |            |abiview|LOOS           |
+|post-p.|qeschema          |cubefile-tools|gpaw-tools  |abiopen|TRAVIS         |
+|       |postqe [^2]       |octools       |            |abiview|LOOS           |
 |       |                  |              |            |       |FREUD          |
 |       |                  |              |            |       |PyLAT          |               |
 |       |                  |              |            |       |               |
