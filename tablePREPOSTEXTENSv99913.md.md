@@ -26,7 +26,7 @@
 |       |SSCHA [^7]        |ICET [^8]     |            |       |vcsgc [^9]     |
 |       |SternheimerGW     |PHONOPY3      |            |       |TAMMBER        |
 |       |aiida [^10]       |ASR           |            |       |PyEMMA         |
-|       |eDFTpy            |              |            |       |DISCOTRESS     |
+|       |eDFTpy            |eDFTpy        |            |       |DISCOTRESS     |
 |       |                  |              |            |       |PyGT           |
 |       |                  |              |            |       |BLaSa          |
 |       |                  |              |            |       |SPORTRAN       |
