@@ -9,11 +9,12 @@
 |       |                  |              |            |Pizza.py       |
 |       |                  |              |            |moltemplate.org|
 |       |                  |              |            |TOPOTOOLS [^1] |
+|       |                  |              |            |MolTwister     |
 |       |                  |              |            |               |
 |post-p.|qeschema          |              |            |TRAVIS         |
 |       |postqe [^2]       |              |            |LOOS           |
 |       |                  |              |            |FREUD          |
-|       |                  |              |            |               |
+|       |                  |              |            |PyLAT          |
 |       |                  |              |            |               |
 |       |                  |              |            |               |
 |       |                  |              |            |               |
