@@ -32,7 +32,7 @@
 |       |                  |              |            |BLaSa          |
 |       |                  |              |            |SPORTRAN       |
 |       |                  |              |            |PYIRON         |
-|       |                  |              |            |FRESHS         |
+|       |                  |              |            |FRESHS [^10]   |
 
 [^1]: https://sites.google.com/site/akohlmey/software/topotools
 [^2]: https://github.com/QEF/postqe
@@ -43,3 +43,4 @@
 [^7]: https://sharc.materialsmodeling.org/sqs/ ; https://icet.materialsmodeling.org/
 [^8]: https://vcsgc-lammps.materialsmodeling.org/
 [^9]: AIIDA and materialscloud.org (alongside other components) comprise a Big-Data High-Throughput Computational Materials Science framework
+[^10]: https://github.com/freshs/freshs
