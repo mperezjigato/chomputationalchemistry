@@ -26,7 +26,7 @@
 |       |YAMBO             |EON           |            |pymatnest      |
 |       |SSCHA             |ICET [^7]     |            |vcsgc [^8]     |
 |       |SternheimerGW     |PHONOPY3      |            |TAMMBER        |
-|       |aiida [^9]        |              |            |PyEMMA         |
+|       |aiida [^9]        |ASR           |            |PyEMMA         |
 |       |                  |              |            |DISCOTRESS     |
 |       |                  |              |            |PyGT           |
 |       |                  |              |            |BLaSa          |
