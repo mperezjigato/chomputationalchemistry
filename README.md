@@ -78,12 +78,11 @@ A range of personal scientific interests lies behind this description. In case w
 
 - *Dynamics of the interface solid surface - liquid water*
 
-NOTE: The intern is considering the possibility of creating an entry to this docuement (or even a separate repository devoted to it) for databases in tabular form, inclusind structural, property-wise, etc. For the time being it seems key to mention the following database for 
-ions in solutions (many solvents/many solutes) on the bases of first-principles molecular dynamics:
+NOTE: The intern is considering the possibility of adding a regularly updated entry to this document (or a separate repository) for databases in tabular form, including structural aspects, property-wise listings, etc. For the time being it seems worth mentioning the following database for ions in solution (many solvents/many solutes), on the bases of first-principles molecular dynamics:
 
 [](https://ionsolvr.newcastle.edu.au/solutes.html#Database)
 
-The structural aspect of this database is obvious from the point of view of computational testing purposes.
+The structural aspect of this database is obvious for computational testing purposes as well as for generating starting geometries for molecular modelling. 
 
 [^1]: https://www.umass.edu/microbio/chime/beta/x1.07/protexpl/help_hyd.htm
 [^2]: http://swift.embl-heidelberg.de/servers2/
