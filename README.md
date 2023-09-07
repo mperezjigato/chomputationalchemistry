@@ -77,13 +77,14 @@ A range of personal scientific interests lies behind this description. In case w
 
 ![](chemicalordering.gif)
 
-- *Dynamics of the interface solid surface - liquid water*
+- *Dynamics of the interface solid surface - liquid water*:
+Following the ASE tutorial material, generating atomistic geometries for water interfaces seems trivial, which will allow to get started in computing the dynamics of solved/adsorbed proteins. No work on the influence of a metal surface seems to have been located in the literature.
 
-NOTE: The intern is considering the possibility of adding a regularly updated entry to this document (or a separate repository) for databases in tabular form, including structural aspects, property-wise listings, etc. For the time being it seems worth mentioning the following database for ions in solution (many solvents/many solutes), on the bases of first-principles molecular dynamics:
+NOTE: The intern is considering the possibility of adding a regularly updated entry to this document for databases in tabular form, including structural aspects, property-wise listings, etc. For the time being the following database for ions in solution (many ions/many solvents) on the basis of first-principles molecular dynamics data, seems worth mentioning:
 
 [](https://ionsolvr.newcastle.edu.au/solutes.html#Database)
 
-The structural aspect of this database is obvious for computational testing purposes as well as for generating starting geometries for molecular modelling. 
+Regarding computational testing purposes in molecular modelling, the valuable structural aspect of this database is obvious. 
 
 [^1]: https://www.umass.edu/microbio/chime/beta/x1.07/protexpl/help_hyd.htm
 [^2]: http://swift.embl-heidelberg.de/servers2/
