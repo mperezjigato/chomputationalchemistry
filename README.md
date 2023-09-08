@@ -84,7 +84,7 @@ NOTE: The intern is considering the possibility of adding a regularly updated en
 
 [](https://ionsolvr.newcastle.edu.au/solutes.html#Database)
 
-Regarding computational testing purposes in molecular modelling, the valuable structural aspect of this database is obvious. 
+For computational testing purposes in molecular modelling, the valuable structural aspect of this database is obvious. 
 
 [^1]: https://www.umass.edu/microbio/chime/beta/x1.07/protexpl/help_hyd.htm
 [^2]: http://swift.embl-heidelberg.de/servers2/
