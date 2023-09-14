@@ -1,7 +1,7 @@
 
 # computationalchemistry
 
-The work (training material) carried out on a set of first-principles quantum mechanical and molecular dynamics programs is summarised in the form of HPC submission scripts, as well as of tables describing the actual progress with the packages, and of the full input/output file set for specific calculations. Therefore, the main point of this repository is that:
+The work (training material) carried out on a set of first-principles quantum mechanical and molecular dynamics programs is summarised in the form of HPC submission scripts, as well as of tables describing the actual progress with the packages, and of the full input/output file set for specific calculations. Therefore, the main point of this repository is:
 
 1. Slurm job submission scripts for calculations with the various software packages have been uploaded.
 1. Tables depicting the progress achieved with the various computational chemistry programs are regularly updated
@@ -85,6 +85,19 @@ NOTE: The intern is considering the possibility of adding a regularly updated en
 [](https://ionsolvr.newcastle.edu.au/solutes.html#Database)
 
 For computational testing purposes in molecular modelling, the valuable structural aspect of this database is obvious. 
+
+TO DO LIST: Since the intern has lagged behind regarding weekly report uploading, the following list of software for HPC calculations is required:
+
+ - Alphafold;
+ - GROMACS and PLUMED;
+ - The OpenKim set of force-fields for BCC metals (W) under ASE;
+ - Interfaces with liquid water (TIP potentials) of both FCC and BCC metals;
+ -  `atomsk` and `DIST-tools` atomistic model building for extended defects in materials science (metals) as well as ASE, LAMMPS and GPAW calculations;
+ - The comprehensive GPAW test suite (only a simple as-provided test has been run so far);
+ - PRACE (UEABS) benchmarks for GPAW;
+ - Following the GPAW weak scaling study on Ag nanoparticles, and in order to contribute further to the discussion on GPAW optimisation, the intern is considering the installation of a code not mentioned so far: Either SIESTA or ONETEP. Both are linear-scaling codes and they overcome the $$N^^3$$ dependence of first-principles quantum mechanical density-functional theory calculations. Both have really attractive computational features, the only practical difference being at this point that while SIESTA is open-source, ONETEP requires a licence application (although it is for free). Their comparison with the GPAW output would be in order. Conda installations have been discarded for these purposes, since performance would not be a reliable measure;
+ - WULFFPACK, and
+ - SSCHA
 
 [^1]: https://www.umass.edu/microbio/chime/beta/x1.07/protexpl/help_hyd.htm
 [^2]: http://swift.embl-heidelberg.de/servers2/
